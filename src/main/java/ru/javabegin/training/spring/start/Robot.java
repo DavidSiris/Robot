@@ -4,12 +4,15 @@ import ru.javabegin.training.spring.interfaces.Hand;
 import ru.javabegin.training.spring.interfaces.Head;
 import ru.javabegin.training.spring.interfaces.Leg;
 
+/*
+ * первый коммит
+ */
 public class Robot {
-	
+
 	private Hand hand;
 	private Leg leg;
 	private Head head;
-	
+
 	public Robot(Hand hand, Leg leg, Head head) {
 		super();
 		this.hand = hand;
@@ -17,7 +20,7 @@ public class Robot {
 		this.head = head;
 	}
 
-	public void action(){
+	public void action() {
 		head.calc();
 		hand.catchSomething();
 		leg.go();
