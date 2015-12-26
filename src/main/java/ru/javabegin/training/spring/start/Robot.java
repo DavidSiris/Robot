@@ -6,6 +6,7 @@ import ru.javabegin.training.spring.interfaces.Leg;
 
 /*
  * первый коммит
+ * 111111111111
  */
 public class Robot {
 
